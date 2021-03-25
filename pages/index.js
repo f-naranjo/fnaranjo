@@ -8,5 +8,5 @@ const Title = styled.h1`
 `
 
 export default function Home() {
-  return <h1>Ey ou yipi yipi yei</h1>
+  return <h1>Ey ou yipi yipi yei!</h1>
 }
