@@ -6,11 +6,19 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
   }
+  html{
+    margin:0;
+    padding:0;
+  }
+  h1{
+    margin:0;
+    padding:0;
+  }
 `
 
 const theme = {
   colors: {
-    primary: '#0070f3',
+    primary: '#000000',
   },
 }
 
