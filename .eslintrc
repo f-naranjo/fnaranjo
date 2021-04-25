@@ -1,0 +1,108 @@
+{
+    "parser": "@babel/eslint-parser",
+    "env": {
+      "browser": true,
+      "es6": true
+    },
+    "extends": [
+      "plugin:react/recommended",
+      "airbnb"
+    ],
+    "globals": {
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readonly",
+      "React": "writable"
+    },
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+    },
+    "plugins": [
+      "react",
+      "@babel"
+    ],
+    "rules": {
+      "react/react-in-jsx-scope": "off",
+      "linebreak-style": 0,
+      "camelcase":"off",
+      "no-shadow": [
+        "error",
+        {
+          "allow": [
+            "className",
+            "value",
+            "user",
+            "request",
+            "images",
+            "theme"
+          ]
+        }
+      ],
+      "react/jsx-pascal-case": "off",
+      "react/prop-types": 0,
+      "react/jsx-filename-extension": 0,
+      "react/no-did-mount-set-state": 0,
+      "react/jsx-props-no-spreading": "off",
+      "global-require": 0,
+      "id-length": 0,
+      "max-len": 0,
+      "jsx-a11y/anchor-is-valid": 0,
+      "jsx-a11y/label-has-for": 0,
+      "import/default": 0,
+      "no-param-reassign": [
+        2,
+        {
+          "props": false
+        }
+      ],
+      "consistent-return": 0,
+      "arrow-parens": 0,
+      "no-underscore-dangle": 0,
+      "import/no-dynamic-require": 0,
+      "import/prefer-default-export": 0,
+      "newline-per-chained-call": 0,
+      "no-unused-expressions": 0,
+      "object-curly-newline": [
+        "error",
+        {
+          "ObjectPattern": {
+            "multiline": false
+          }
+        }
+      ],
+      "quotes": [
+        "error",
+        "single"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "indent": [
+        "error",
+        2,
+        {
+          "ignoredNodes": [
+            "JSXElement *",
+            "JSXElement"
+          ]
+        }
+      ],
+      "jsx-a11y/no-noninteractive-element-interactions": 0,
+      "jsx-a11y/no-static-element-interactions": 0,
+      "jsx-a11y/click-events-have-key-events": 0,
+      "import/no-extraneous-dependencies": [
+        "error",
+        {
+          "devDependencies": true,
+          "optionalDependencies": false,
+          "peerDependencies": false
+        }
+      ],
+      "import/no-named-as-default": 0,
+      "no-nested-ternary": 0
+    }
+  }
