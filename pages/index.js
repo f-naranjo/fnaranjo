@@ -120,7 +120,7 @@ export default function Home() {
       <Text>Me gusta hacer cosas que involucren el diseño, la arquitectura y el universo tecnológico. Y me encanta hacerlo en equipo.</Text>
       <Text>Descubrir, usar, crear, transmitir y ayudar.</Text>
       <Text> <Circle/>Actualmente desarrollo productos digitales como <TextLink as="a" href="https://shootfy.com" target="_blank" className="shootfy">Shootfy</TextLink> ,  <TextLink as="a" href="mailto:hola@fnaranjo.dev"  className="cuimo">Cüimo</TextLink>  o <TextLink as="a" href="https://mapayuda.org" target="_blank" className="mapayuda">Mapayuda</TextLink> en  <Text as="a" href="https://tailor-hub.com" target="_blank" className="tailor">Tailor</Text>.</Text>
-      <Text>Si quieres contactar conmigo puedes <SocialLink as="a" href="mailto:fran@fnaranjo.dev">escribirme un email</SocialLink> o <SocialLink as="a" href="https://twitter.com/frannaran" target="_blank">seguirme en twitter</SocialLink></Text>
+      <Text>Si quieres contactar conmigo puedes <SocialLink as="a" href="mailto:fran@fnaranjo.dev">escribirme un email</SocialLink> o <SocialLink as="a" href="https://twitter.com/frannaran" target="_blank">seguirme en twitter</SocialLink>.</Text>
       </MainWrapper>
     </Page>
   )
