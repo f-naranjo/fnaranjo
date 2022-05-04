@@ -174,7 +174,7 @@ html {
     background-color: ${({ background }) => background || 'ffffff'};
 }
 body {
-  font-family: 'Founders Grotesk Light';
+  font-family: 'Founders Grotesk Light', sans-serif;
   background-color: ${({ background }) => background || 'ffffff'};
 }
 

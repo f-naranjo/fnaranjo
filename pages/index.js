@@ -84,6 +84,11 @@ max-width:1000px;
     color:#0F1B51;
   }
 }
+.z1{
+  :hover{
+    color:#0f0322;
+  }
+}
 @media screen and (min-width:768px){
 padding:48px 48px;
 }
@@ -119,7 +124,8 @@ export default function Home() {
       <Text>Aprendí a hacer páginas webs en Frontpage en el 2000, me enamoré de la arquitectura hace 10 años y en el camino tuve varias aventuras con el diseño, la tipografía y el desarrollo web. En la programación he encontrado un espacio de desarrollo creativo que ofrece retos apasionantes.</Text>
       <Text>Me gusta hacer cosas que involucren el diseño, la arquitectura y el universo tecnológico. Y me encanta hacerlo en equipo.</Text>
       <Text>Descubrir, usar, crear, transmitir y ayudar.</Text>
-      <Text> <Circle/>Actualmente desarrollo productos digitales como <TextLink as="a" href="https://shootfy.com" target="_blank" className="shootfy">Shootfy</TextLink> ,  <TextLink as="a" href="https://cuimo.es"  className="cuimo">Cüimo</TextLink>  o <TextLink as="a" href="https://mapayuda.org" target="_blank" className="mapayuda">Mapayuda</TextLink> en  <Text as="a" href="https://tailor-hub.com" target="_blank" className="tailor">Tailor</Text>.</Text>
+      <Text> Desde Mayo de 2020 hasta Abril de 2022 desarrollé productos digitales como <TextLink as="a" href="https://shootfy.com" target="_blank" className="shootfy">Shootfy</TextLink> ,  <TextLink as="a" href="https://cuimo.es"  className="cuimo">Cüimo</TextLink>  o <TextLink as="a" href="https://mapayuda.org" target="_blank" className="mapayuda">Mapayuda</TextLink> en  <Text as="a" href="https://tailor-hub.com" target="_blank" className="tailor">Tailor</Text>.</Text>
+      <Text> <Circle/>Ahora estoy trabajando como Front-end developer en <Text as="a" href="https://z1.digital" target="_blank" className="z1">Z1</Text>.</Text>
       <Text>Si quieres contactar conmigo puedes <SocialLink as="a" href="mailto:fran@fnaranjo.dev">escribirme un email</SocialLink> o <SocialLink as="a" href="https://twitter.com/frannaran" target="_blank">seguirme en twitter</SocialLink>.</Text>
       </MainWrapper>
     </Page>
